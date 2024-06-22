@@ -143,7 +143,7 @@ public class ReusableMethods {
         jse.executeScript("arguments[0].click();", element);
     }
 
-    // JS Sayfa Sony Scroll
+    // JS Sayfa Sonu Scroll
     public static void scrollEnd() {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript ("window.scrollTo(0,document.body.scrollHeight)");

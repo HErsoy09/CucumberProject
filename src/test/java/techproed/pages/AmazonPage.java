@@ -16,11 +16,19 @@ public class AmazonPage {
     @FindBy(id = "twotabsearchtextbox")
     public WebElement searchBox;
 
-    @FindBy(xpath = "//a[text()='Try different image']")
+    @FindBy(id = "nav-bb-search")
+    public WebElement searchBox1;
+
+/*     @FindBy(xpath = "//a[text()='Try different image']")
     public WebElement amazonCaptcha;
 
-    public void handleCaptcha() {
-        amazonCaptcha.click();
+   public void handleCaptcha() {
+        try {
+            amazonCaptcha.click();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
         //ReusableMethods.click(amazonCaptcha); //Metot bizde yok
     }
+ */
 }

@@ -1,3 +1,24 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+]
+-src/test/java/techproed/utilities/Driver.java,0\4\045c48383bcd08d633f4b8d080332120e7750a1e
+c
+3src/test/java/techproed/utilities/ConfigReader.java,a\9\a90808ad666d9a492e9444354096bd1074ef7b7e
+f
+6src/test/java/techproed/utilities/ReusableMethods.java,a\6\a61a830de58ecd65e966a0f39b81da407b49bdc5
+H
+configuration.properties,b\6\b6c5dfcde54b418dd721679edbc49a89558b78a0
+]
+-src/test/java/techproed/pages/AmazonPage.java,8\5\8583700d53e6ad381a15705554145f7b66537b54
+e
+5src/test/java/techproed/pages/BlueRentalCarsPage.java,d\5\d597b188eb53e321bf5086421ed0fa3160af3d6c
+q
+Asrc/test/java/techproed/stepDefinitions/AmazonStepDefinition.java,b\a\ba7ebc02d13eb3006782937ca863ec6cfc7fc089
+[
++src/test/java/techproed/runners/Runner.java,1\c\1ca1deabc65fbbd0341ca58dfc4256b6a7c6ee6f
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+x
+Hsrc/test/java/techproed/stepDefinitions/BlueRentalCarStepDefinition.java,2\c\2cc33ba742e811e74b1d68fd0f5ff32d8584ef2c
