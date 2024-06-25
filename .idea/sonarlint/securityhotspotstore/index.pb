@@ -22,3 +22,11 @@ Asrc/test/java/techproed/stepDefinitions/AmazonStepDefinition.java,b\a\ba7ebc02
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 x
 Hsrc/test/java/techproed/stepDefinitions/BlueRentalCarStepDefinition.java,2\c\2cc33ba742e811e74b1d68fd0f5ff32d8584ef2c
+q
+Asrc/test/java/techproed/stepDefinitions/GoogleStepDefinition.java,5\4\543962855c5f1b8cf7eb2d7f6158abde116a2cab
+]
+-src/test/java/techproed/pages/GooglePage.java,3\6\3637a843423aba343456d8408dfb56cf667fe920
+t
+Dsrc/test/java/techproed/stepDefinitions/DataTableStepDefinition.java,0\0\007f3371a7a6a46285316ead891e572032fbe8ab
+`
+0src/test/java/techproed/pages/DataTablePage.java,c\2\c273ad597fb20a5ee58acb630e49b6704d2d59b4

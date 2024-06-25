@@ -30,4 +30,17 @@ public class BlueRentalCarStepDefinition {
         blueRentalCarsPage.password.sendKeys(ConfigReader.getProperty("blueRentalCarsPassword"));
         blueRentalCarsPage.loginButton.submit();
     }
+
+//Parametreli
+    @And("{string} ve {string} bilgileri ile login olur")
+    public void veBilgileriIleLoginOlur(String email, String password) {
+        blueRentalCarsPage.email.sendKeys(email);
+        blueRentalCarsPage.password.sendKeys(password);
+        blueRentalCarsPage.loginButton.submit();
+    }
+
+    @And("blueRentalCar login oldugunu dogrular")
+    public void bluerentalcarLoginOldugunuDogrular() {
+        blueRentalCarsPage.loginVerify.isEnabled();
+    }
 }

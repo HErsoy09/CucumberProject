@@ -50,4 +50,22 @@ public class AmazonStepDefinition {
             amazonPage.searchBox1.submit();
         }
     }
+
+//Dynamic (Parameters)
+
+    @Given("kullanici {string} sayfasina gider")
+    public void kullaniciSayfasinaGider(String url) {
+        Driver.getDriver().get(url);
+    }
+
+    @When("arama kutusunda {string} aratir")
+    public void aramaKutusundaAratir(String str) {
+        if (amazonPage.searchBox.isDisplayed()) {
+            amazonPage.searchBox.sendKeys(str);
+            amazonPage.searchBox.submit();
+        } else if (amazonPage.searchBox1.isDisplayed()) {
+            amazonPage.searchBox1.sendKeys(str);
+            amazonPage.searchBox1.submit();
+        }
+    }
 }

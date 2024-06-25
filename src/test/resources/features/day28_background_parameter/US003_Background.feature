@@ -5,17 +5,20 @@
 @US003
 Feature: US003 Amazon Testi
 
-  Scenario: TC01 Arama kutusunda iphone aratilir
+  Background:
     Given kullanici amazon sayfasina gider
+
+  @iphone
+  Scenario: TC01 Arama kutusunda iphone aratilir
     When arama kutusunda iphone aratir
     And sayfayi kapatir
 
+  @samsung @smoke @hakan
   Scenario: TC02 Arama kutusunda samsung aratilir
-    Given kullanici amazon sayfasina gider
     When arama kutusunda samsung aratir
     And sayfayi kapatir
 
+  @nokia
   Scenario: TC03 Arama kutusunda nokia aratilir
-    Given kullanici amazon sayfasina gider
     When arama kutusunda nokia aratir
     And sayfayi kapatir
