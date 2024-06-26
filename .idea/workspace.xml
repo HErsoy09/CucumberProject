@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ae86e15-cd6a-4ca6-a0b5-0d7f3916c8f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/DataTablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/DataTableStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/GoogleStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day28_background_parameter/US004_ParametreKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day28_background_parameter/US005_ParametreKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day28_background_parameter/US006_ScenarioOutline.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day28_background_parameter/US007_ScenarioOutlineClassWork.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day29_scenariooutline_datatable_htmlreports/US008_ScenarioOutlineClassWork.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day29_scenariooutline_datatable_htmlreports/US009_DataTables.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/AmazonStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/AmazonStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/BlueRentalCarStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/BlueRentalCarStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day27_cucumber_setup/firstFeatureFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day27_cucumber_setup/US001_firstFeatureFile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day28_background_parameter/US003_Background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day28_background_parameter/US003_Background.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinitions/GoogleStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +168,17 @@
       <updated>1718961817786</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
