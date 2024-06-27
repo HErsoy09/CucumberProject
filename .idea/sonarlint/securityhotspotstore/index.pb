@@ -30,3 +30,15 @@ t
 Dsrc/test/java/techproed/stepDefinitions/DataTableStepDefinition.java,0\0\007f3371a7a6a46285316ead891e572032fbe8ab
 `
 0src/test/java/techproed/pages/DataTablePage.java,c\2\c273ad597fb20a5ee58acb630e49b6704d2d59b4
+W
+'src/test/java/techproed/hooks/Hook.java,1\e\1eb10f096592cf77ef93fc5e61cbdb012def831d
+b
+2src/test/java/techproed/utilities/ExcelReader.java,3\b\3b7a2af99e0aa951bb7ee628ddb4bf0a43007cf2
+N
+TestOutput/failed_scenario.txt,b\a\ba6404628a74955f013de12fc6c32eaa368baa19
+a
+1src/test/java/techproed/runners/FailedRunner.java,0\f\0fb6d644fa56af67d2f4513c935ade666463dde2
+d
+4src/test/java/techproed/runners/ParallelRunner1.java,d\c\dca392a2bcf8483ab2e87697c871d130e09b85a2
+d
+4src/test/java/techproed/runners/ParallelRunner2.java,3\3\3367011c3bad7bd94cbdebc22a718647debaeb71

@@ -15,15 +15,14 @@ import org.junit.runner.RunWith;
                 "rerun:TestOutput/failed_scenario.txt"
         },
 
-        features = "src/test/resources/features",
+        features = "@TestOutput/failed_scenario.txt",
         glue = {
                 "techproed/stepDefinitions",
                 "techproed/hooks"
         },
-        tags = "@US013",
         dryRun = false,
 
         monochrome = false
 )
-public class Runner {
+public class FailedRunner {
 }

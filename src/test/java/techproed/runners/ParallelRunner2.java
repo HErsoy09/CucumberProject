@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 
         plugin = {
                 "pretty",
-                "html:target/default-cucumber-reports.html",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-reports/cucumber.xml",
+                "html:target/default-cucumber-reports2.html",
+                "json:target/json-reports/cucumber2.json",
+                "junit:target/xml-reports/cucumber2.xml",
                 "rerun:TestOutput/failed_scenario.txt"
         },
 
@@ -25,5 +25,5 @@ import org.junit.runner.RunWith;
 
         monochrome = false
 )
-public class Runner {
+public class ParallelRunner2 {
 }

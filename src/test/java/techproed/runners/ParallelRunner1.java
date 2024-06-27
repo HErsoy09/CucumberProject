@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 
         plugin = {
                 "pretty",
-                "html:target/default-cucumber-reports.html",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-reports/cucumber.xml",
+                "html:target/default-cucumber-reports1.html",
+                "json:target/json-reports/cucumber1.json",
+                "junit:target/xml-reports/cucumber1.xml",
                 "rerun:TestOutput/failed_scenario.txt"
         },
 
@@ -20,10 +20,10 @@ import org.junit.runner.RunWith;
                 "techproed/stepDefinitions",
                 "techproed/hooks"
         },
-        tags = "@US013",
+        tags = "@US002",
         dryRun = false,
 
         monochrome = false
 )
-public class Runner {
+public class ParallelRunner1 {
 }
